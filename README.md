@@ -50,3 +50,5 @@ Tänk er en dykarklubb som anordnar utfärder under sommarhalvåret. De har en w
 | `get_all_who_has_not_returned_items()` | `test_get_all_who_has_not_returned_items_member_return_all()` | En medlem lämnar tillbaka alla items |
 | `get_all_who_has_not_returned_items()` | `test_get_all_who_has_not_returned_items_many_members()` | Flera medlemmar har ej återlämnade items |
 | `get_all_who_has_not_returned_items()` | `test_get_all_who_has_not_returned_items_members_many_items()` | Flera medlemmar har flera ej återlämnade items |
+
+## 3️⃣  Kodning
