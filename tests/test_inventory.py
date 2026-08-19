@@ -121,3 +121,13 @@ def test_rent_multiple_different_items(inventory, compass, hiking_poles, backpac
     assert inventory.get_amount_left(hiking_poles.name) == 19
     assert inventory.get_amount_left(backpack.name) == 14
 
+
+def test_rent_non_existing_item(inventory, compass):
+    """
+    Tests rent() method that renting a non-existing item does not affect the inventory.
+    """
+    inventory.set_item(compass.name, compass.rent_price, compass.amount)
+
+    inventory.rent("Boots")
+
+    assert inventory.get_amount_left(compass.name) == 30
