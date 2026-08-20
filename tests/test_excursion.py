@@ -8,20 +8,33 @@ from item import Item
 
 @pytest.fixture
 def excursion():
+    """
+    Creates an excursion item for testing.
+    """
     return Excursion()
 
 @pytest.fixture
 def compass():
+    """
+    Creates a compass item for testing.
+    """
     return Item("Compass", 25, 30)
 
 
 @pytest.fixture
 def hiking_poles():
+    """
+    Creates hiking_poles item for testing.
+    """
     return Item("Hiking poles", 40, 20)
 
 
 @pytest.fixture
 def backpack():
+    """
+    Creates backpack item for testing.
+    """
+
     return Item("Backpack", 50, 15)
 
 

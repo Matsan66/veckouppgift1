@@ -17,7 +17,6 @@ def compass():
     """
     Creates a compass item for testing.
     """
-
     return Item("Compass", 25, 30)
 
 
